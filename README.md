@@ -1,4 +1,4 @@
-<h1 align="center">Self-Operating Computer Framework</h1>
+<h1 align="center">AIá Ballongknute</h1>
 
 <p align="center">
   <strong>A framework to enable multimodal models to operate a computer.</strong>
@@ -7,9 +7,6 @@
   Using the same inputs and outputs as a human operator, the model views the screen and decides on a series of mouse and keyboard actions to reach an objective. 
 </p>
 
-<div align="center">
-  <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/self-operating-computer.png" width="750"  style="margin: 10px;"/>
-</div>
 
 <!--
 :rotating_light: **OUTAGE NOTIFICATION: gpt-4-vision-preview**
@@ -21,19 +18,6 @@
 - **Compatibility**: Designed for various multimodal models.
 - **Integration**: Currently integrated with **GPT-4v, Gemini Pro Vision, and LLaVa.**
 - **Future Plans**: Support for additional models.
-
-## Ongoing Development
-At [HyperwriteAI](https://www.hyperwriteai.com/), we are developing Agent-1-Vision a multimodal model with more accurate click location predictions.
-
-## Agent-1-Vision Model API Access
-We will soon be offering API access to our Agent-1-Vision model.
-
-If you're interested in gaining access to this API, sign up [here](https://othersideai.typeform.com/to/FszaJ1k8?typeform-source=www.hyperwriteai.com).
-
-## Demo
-
-https://github.com/OthersideAI/self-operating-computer/assets/42594239/9e8abc96-c76a-46fb-9b13-03678b3c67e0
-
 
 ## Run `Self-Operating Computer`
 
@@ -47,16 +31,6 @@ operate
 ```
 3. **Enter your OpenAI Key**: If you don't have one, you can obtain an OpenAI key [here](https://platform.openai.com/account/api-keys)
 
-<div align="center">
-  <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/key.png" width="300"  style="margin: 10px;"/>
-</div>
-
-4. **Give Terminal app the required permissions**: As a last step, the Terminal app will ask for permission for "Screen Recording" and "Accessibility" in the "Security & Privacy" page of Mac's "System Preferences".
-
-<div align="center">
-  <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/terminal-access-1.png" width="300"  style="margin: 10px;"/>
-  <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/terminal-access-2.png" width="300"  style="margin: 10px;"/>
-</div>
 
 ### Alternatively installation with `.sh`
 
@@ -75,6 +49,8 @@ cd self-operating-computer
 ```
 ./run.sh
 ```
+
+
 
 ## Using `operate` Modes
 
@@ -161,27 +137,6 @@ Start `operate` with the SoM model
 operate -m gpt-4-with-som
 ```
 
-
-
-## Contributions are Welcomed!:
-
-If you want to contribute yourself, see [CONTRIBUTING.md](https://github.com/OthersideAI/self-operating-computer/blob/main/CONTRIBUTING.md).
-
-## Feedback
-
-For any input on improving this project, feel free to reach out to [Josh](https://twitter.com/josh_bickett) on Twitter. 
-
-## Join Our Discord Community
-
-For real-time discussions and community support, join our Discord server. 
-- If you're already a member, join the discussion in [#self-operating-computer](https://discord.com/channels/877638638001877052/1181241785834541157).
-- If you're new, first [join our Discord Server](https://discord.gg/YqaKtyBEzM) and then navigate to the [#self-operating-computer](https://discord.com/channels/877638638001877052/1181241785834541157).
-
-## Follow HyperWriteAI for More Updates
-
-Stay updated with the latest developments:
-- Follow HyperWriteAI on [Twitter](https://twitter.com/HyperWriteAI).
-- Follow HyperWriteAI on [LinkedIn](https://www.linkedin.com/company/othersideai/).
 
 ## Compatibility
 - This project is compatible with Mac OS, Windows, and Linux (with X server installed).
